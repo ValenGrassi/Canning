@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Facebook, Menu, X } from "lucide-react"
+import BrandLogo from "@/components/brand-logo"
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -41,17 +42,10 @@ export default function Navbar() {
           {/* Logo */}
           <button
             onClick={() => handleNav("#inicio")}
-            className="flex items-center gap-2 group"
+            className="flex items-center group"
             aria-label="Ir al inicio"
           >
-            <div
-              className={`flex items-center gap-2 font-heading font-extrabold text-lg leading-tight transition-colors duration-300 ${
-                scrolled ? "text-primary" : "text-white"
-              }`}
-            >
-              <span className="bg-primary text-white px-2 py-1 rounded text-sm font-extrabold tracking-wide">LC</span>
-              <span className="hidden sm:block">Lubricentro Canning</span>
-            </div>
+            <BrandLogo variant={scrolled ? "dark" : "light"} />
           </button>
 
           {/* Desktop nav links */}

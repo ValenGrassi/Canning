@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, MapPin, Phone } from "lucide-react"
+import BrandLogo from "@/components/brand-logo"
 
 export default function Footer() {
   return (
@@ -8,11 +9,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pb-8 border-b border-white/10">
           {/* Brand */}
           <div className="flex flex-col gap-3">
-            <div className="flex items-center gap-2">
-              <span className="bg-primary text-white px-2 py-1 rounded text-sm font-extrabold tracking-wide">LC</span>
-              <span className="font-heading font-bold text-white text-lg">Lubricentro Canning</span>
-            </div>
-            <p className="text-sm leading-relaxed max-w-xs">
+            <BrandLogo variant="light" />
+            <p className="text-sm leading-relaxed max-w-xs mt-1">
               30 años cuidando autos en el barrio. Cambio de aceite, filtros y más.
             </p>
           </div>

@@ -61,17 +61,42 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Interior photo */}
-        <div className="mb-12 rounded-2xl overflow-hidden shadow-xl h-64 sm:h-80 relative">
-          <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6-o5XSewzbo4v47kbwmBgjjPmkc0IFfw.webp"
-            alt="Mecánico trabajando bajo un auto elevado en Lubricentro Canning"
-            className="w-full h-full object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-navy/40 flex items-end p-6">
-            <p className="text-white font-heading font-bold text-xl sm:text-2xl">
-              Profesionales con experiencia y equipamiento moderno
-            </p>
+        {/* Photo grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-14">
+          {/* Left: car on lift — interior wide shot */}
+          <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80 shadow-lg group">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-76vgSLIGlsdbBnjTs3kKtwv3x9dhn1.webp"
+              alt="Auto elevado en el taller de Lubricentro Canning"
+              className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent" />
+            <div className="absolute bottom-0 left-0 p-5">
+              <p className="text-white font-heading font-bold text-lg leading-snug text-balance">
+                Equipamiento moderno de elevación
+              </p>
+              <p className="text-white/70 text-sm mt-1">
+                Trabajamos con seguridad y precisión
+              </p>
+            </div>
+          </div>
+
+          {/* Right: mechanic working under car */}
+          <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80 shadow-lg group">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6-o5XSewzbo4v47kbwmBgjjPmkc0IFfw.webp"
+              alt="Mecánico trabajando bajo un auto elevado en Lubricentro Canning"
+              className="w-full h-full object-cover object-bottom transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent" />
+            <div className="absolute bottom-0 left-0 p-5">
+              <p className="text-white font-heading font-bold text-lg leading-snug text-balance">
+                Técnicos con experiencia
+              </p>
+              <p className="text-white/70 text-sm mt-1">
+                Atención rápida y de calidad
+              </p>
+            </div>
           </div>
         </div>
 
