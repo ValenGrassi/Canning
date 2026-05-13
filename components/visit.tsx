@@ -9,7 +9,7 @@ export default function Visit() {
 
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/5491147722452?text=Hola%2C%20quiero%20coordinar%20un%20turno.",
+      "https://wa.me/5491133982304?text=Hola%2C%20quiero%20coordinar%20un%20turno.",
       "_blank"
     )
   }
@@ -32,7 +32,7 @@ export default function Visit() {
         <div className="text-center mb-10">
           <span className="text-primary text-sm font-bold uppercase tracking-widest">Vení cuando quieras</span>
           <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-foreground mt-2 text-balance">
-            Sin turno o con turno — vos elegís
+            Sin turno o con turno, vos elegís
           </h2>
           <p className="text-muted-foreground mt-3 max-w-lg mx-auto leading-relaxed">
             Podés venir directo al local y te atendemos por orden de llegada, o coordinar un horario por teléfono o WhatsApp.
@@ -46,9 +46,9 @@ export default function Visit() {
               <UserCheck size={22} className="text-white" />
             </div>
             <div>
-              <p className="font-heading font-bold text-foreground text-base">Sin turno previo</p>
+              <p className="font-heading font-bold text-foreground text-base">Sin turno</p>
               <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                Vení directamente al local. Te atendemos por orden de llegada, sin esperas innecesarias.
+              De lunes a viernes, vení directamente al local. Te atendemos por orden de llegada.
               </p>
             </div>
           </div>
@@ -57,9 +57,9 @@ export default function Visit() {
               <CalendarCheck size={22} className="text-foreground" />
             </div>
             <div>
-              <p className="font-heading font-bold text-foreground text-base">Con turno coordinado</p>
+              <p className="font-heading font-bold text-foreground text-base">Con turno</p>
               <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                Reservá tu horario por teléfono o WhatsApp y evitá cualquier espera al llegar.
+              Los sábados podés reservar un turno por teléfono o WhatsApp.
               </p>
             </div>
           </div>

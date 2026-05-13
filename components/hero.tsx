@@ -8,7 +8,7 @@ export default function Hero() {
   }
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5491147722452?text=Hola%2C%20quiero%20consultar%20sobre%20el%20servicio.", "_blank")
+    window.open("https://wa.me/5491133982304?text=Hola%2C%20quiero%20consultar%20sobre%20el%20servicio.", "_blank")
   }
 
   return (
@@ -33,7 +33,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-24 flex flex-col items-center text-center gap-8">
         {/* Badge */}
         <span className="inline-flex items-center gap-2 bg-accent/90 text-accent-foreground text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full">
-          30 años en el barrio
+          más de 30 años en el barrio
         </span>
 
         {/* Headline */}
@@ -45,8 +45,7 @@ export default function Hero() {
 
         {/* Sub-headline */}
         <p className="text-white/80 text-lg sm:text-xl max-w-xl leading-relaxed">
-          30 años cuidando autos en el barrio. Negocio familiar con atención personalizada y productos originales.
-        </p>
+        Atención personalizada y asesoramiento en Villa Crespo. Todas las marcas, productos originales y alternativos.        </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">

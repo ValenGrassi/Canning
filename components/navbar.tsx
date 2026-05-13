@@ -65,17 +65,26 @@ export default function Navbar() {
 
           {/* Right: social + mobile toggle */}
           <div className="flex items-center gap-3">
-            <Link
-              href="https://www.facebook.com/lubricentrocanning/?locale=es_LA"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook de Lubricentro Canning"
-              className={`transition-colors duration-200 hover:text-primary ${
-                scrolled ? "text-foreground" : "text-white"
-              }`}
-            >
-              <Facebook size={20} />
-            </Link>
+          <Link
+  href="https://www.facebook.com/lubricentrocanning/?locale=es_LA"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`
+    inline-flex items-center justify-center
+    px-6 py-2.5 
+    text-sm font-semibold tracking-wide
+    border-2 rounded-full
+    transition-all duration-300 ease-in-out
+    hover:scale-105 active:scale-95
+    ${
+      scrolled 
+        ? "border-primary bg-primary text-white hover:bg-transparent hover:text-primary" 
+        : "border-white bg-transparent text-white hover:bg-white hover:text-primary"
+    }
+  `}
+>
+  Cuide su motor
+</Link>
             <button
               className={`md:hidden transition-colors duration-200 ${
                 scrolled ? "text-foreground" : "text-white"

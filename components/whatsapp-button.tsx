@@ -3,7 +3,7 @@
 export default function WhatsAppButton() {
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/5491147722452?text=Hola%2C%20quiero%20consultar%20sobre%20el%20servicio.",
+      "https://wa.me/5491133982304?text=Hola%2C%20quiero%20consultar%20sobre%20el%20servicio.",
       "_blank"
     )
   }

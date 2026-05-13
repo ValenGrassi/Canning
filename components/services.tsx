@@ -5,29 +5,36 @@ const services = [
     icon: Droplets,
     title: "Servicio Completo",
     items: [
-      "Cambio de aceite",
-      "Cambio de filtros",
-      "Filtros de aire acondicionado y ventilación",
-      "Revisión de fluidos",
+      "Cambio de aceite y filtros",
+      "Filtros de habitáculo y combustible",
+      "Control de densidad y nivel de refrigerante",
+      "Control de nivel de dirección hidráulica y líquido de frenos",
+      "Control y cambio de luces",
+      "Control y cambio de escobillas limpiaparabrisas",
     ],
     highlight: true,
   },
   {
     icon: Wrench,
-    title: "Mantenimiento Mecánico",
+    title: "Mantenimiento",
     items: [
-      "Cambio de bujías",
-      "Revisión y cambio de aceite de caja",
-      "Aditivos para motor",
+      "Cambio de bujías y cables",
+      "Control y cambio de aceite de caja y diferencial",
+      "Cambio de refrigerante y aceite de dirección hidráulica",
+      "Control de pastillas de freno",
+      "Asesoramiento sobre aditivos",
+      "Orientación y derivación a especialista si es necesario",
     ],
     highlight: false,
   },
   {
     icon: Zap,
-    title: "Baterías",
+    title: "Varios",
     items: [
-      "Diagnóstico de batería",
-      "Reemplazo de batería",
+      "Cambio de aceite para motos",
+      "Recambio y recarga de matafuegos",
+      "Control y diagnóstico de carga de la batería",
+      "Venta y colocación de chapón cubrecárter",
     ],
     highlight: false,
   },
@@ -35,8 +42,13 @@ const services = [
     icon: Factory,
     title: "Lubricantes Industriales",
     items: [
-      "Productos para maquinaria",
-      "Lubricantes para empresas",
+      "Aceites hidráulicos",
+      "Aceites para la industria gráfica",
+      "Aceites para la industria textil",
+      "Fluidos de corte y roscado",
+      "Aceites para engranajes y rodamientos",
+      "Grasas especiales",
+      "Antiespumantes y aditivos especiales",
     ],
     highlight: false,
   },
@@ -57,7 +69,7 @@ export default function Services() {
             Nuestros Servicios
           </h2>
           <p className="text-muted-foreground mt-3 max-w-xl mx-auto leading-relaxed">
-            Todo lo que tu auto necesita en un solo lugar, con los mejores productos y atención de primera.
+            Todo lo que tu auto necesita en un solo lugar. Lo resolvemos en el momento, sin vueltas y con el cuidado de siempre.
           </p>
         </div>
 

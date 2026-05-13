@@ -6,12 +6,12 @@ export default function Footer() {
   return (
     <footer className="bg-navy text-white/70 py-12" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pb-8 border-b border-white/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-8 border-b border-white/10">
           {/* Brand */}
           <div className="flex flex-col gap-3">
             <BrandLogo variant="light" />
             <p className="text-sm leading-relaxed max-w-xs mt-1">
-              30 años cuidando autos en el barrio. Cambio de aceite, filtros y más.
+            Más de 30 años cuidando tu auto. Cambio de aceite, filtros y más.
             </p>
           </div>
 
@@ -30,20 +30,6 @@ export default function Footer() {
             </address>
           </div>
 
-          {/* Socials */}
-          <div className="flex flex-col gap-3">
-            <h3 className="text-white font-semibold text-sm uppercase tracking-widest">Seguinos</h3>
-            <Link
-              href="https://www.facebook.com/lubricentrocanning/?locale=es_LA"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm hover:text-white transition-colors"
-              aria-label="Facebook de Lubricentro Canning"
-            >
-              <Facebook size={18} className="text-accent" />
-              Facebook
-            </Link>
-          </div>
         </div>
 
         <div className="pt-6 text-center text-xs text-white/40">

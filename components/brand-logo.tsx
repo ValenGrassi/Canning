@@ -39,7 +39,7 @@ export default function BrandLogo({ variant = "dark", className }: BrandLogoProp
       <div className="flex flex-col leading-none">
         <span
           className={cn(
-            "font-heading font-extrabold tracking-tight text-base leading-none",
+            "font-heading font-extrabold tracking-tight text-xs leading-none",
             isLight ? "text-white" : "text-foreground"
           )}
         >
@@ -47,7 +47,7 @@ export default function BrandLogo({ variant = "dark", className }: BrandLogoProp
         </span>
         <span
           className={cn(
-            "font-heading font-bold tracking-widest text-[11px] uppercase leading-tight mt-0.5",
+            "font-heading font-bold tracking-widest text-lg uppercase leading-tight mt-0.5",
             isLight ? "text-accent" : "text-primary"
           )}
         >

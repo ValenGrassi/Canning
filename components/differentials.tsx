@@ -4,32 +4,32 @@ const differentials = [
   {
     icon: Award,
     title: "30 años de experiencia",
-    desc: "Más de tres décadas atendiendo a los vecinos del barrio con profesionalismo.",
+    desc: "Más de tres décadas cuidando los vehículos del barrio con dedicación y profesionalismo.",
   },
   {
     icon: Heart,
     title: "Negocio familiar",
-    desc: "Atención personalizada y cercana. Nos importa cada cliente.",
+    desc: "Atención personalizada y cercana. Para nosotros, cada cliente importa.",
   },
   {
     icon: Clock,
     title: "Atención rápida",
-    desc: "Sin turno y por orden de llegada. Tu tiempo es valioso.",
+    desc: "Sin turno, por orden de llegada. Sabemos que tu tiempo vale.",
   },
   {
     icon: DollarSign,
     title: "Precios accesibles",
-    desc: "La mejor calidad al precio más conveniente del barrio.",
+    desc: "Opciones para cada presupuesto, con marcas reconocidas y de calidad.",
   },
   {
     icon: ShoppingBag,
     title: "Todas las marcas",
-    desc: "YPF, Shell, Total, Castrol, Liqui-Moly, Valvoline y más.",
+    desc: "YPF, Shell, Total, Castrol, Petronas, Valvoline y más. Trabajamos con las mejores.",
   },
   {
     icon: CheckCircle,
-    title: "Productos originales",
-    desc: "Garantizamos la calidad con productos originales y alternativos certificados.",
+    title: "Productos de calidad",
+    desc: "Compramos a distribuidores y proveedores oficiales, tanto productos originales y como alternativos.",
   },
 ]
 
@@ -45,7 +45,7 @@ export default function Differentials() {
         <div className="text-center mb-14">
           <span className="text-accent text-sm font-bold uppercase tracking-widest">Por qué elegirnos</span>
           <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-white mt-2 text-balance">
-            Nuestros Diferenciales
+          Lo que nos distingue
           </h2>
         </div>
 
